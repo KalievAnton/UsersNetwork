@@ -12,6 +12,18 @@
 		E2DE4A4D2D133BE900347725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A482D133BE900347725 /* ContentView.swift */; };
 		E2DE4A4E2D133BE900347725 /* UsersNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A492D133BE900347725 /* UsersNetworkApp.swift */; };
 		E2DE4A522D1351F100347725 /* ResultsUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A512D1351F100347725 /* ResultsUsers.swift */; };
+		E2DE4A562D1358FD00347725 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A552D1358FD00347725 /* URLManager.swift */; };
+		E2DE4A5A2D13595600347725 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A592D13595600347725 /* Endpoint.swift */; };
+		E2DE4A5C2D135A1900347725 /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A5B2D135A1900347725 /* Gateway.swift */; };
+		E2DE4A5E2D135A7700347725 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A5D2D135A7700347725 /* Server.swift */; };
+		E2DE4A602D135B2B00347725 /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A5F2D135B2B00347725 /* ParsingService.swift */; };
+		E2DE4A622D135C1F00347725 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A612D135C1F00347725 /* NetworkService.swift */; };
+		E2DE4A642D135D5700347725 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A632D135D5700347725 /* NetworkError.swift */; };
+		E2DE4A662D13605100347725 /* PictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A652D13605100347725 /* PictureViewModel.swift */; };
+		E2DE4A682D13605C00347725 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A672D13605C00347725 /* UsersViewModel.swift */; };
+		E2DE4A6C2D13607F00347725 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A6B2D13607F00347725 /* UsersView.swift */; };
+		E2DE4A6E2D13609000347725 /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A6D2D13609000347725 /* PictureView.swift */; };
+		E2DE4A702D1360B200347725 /* CurrentPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A6F2D1360B200347725 /* CurrentPictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +33,18 @@
 		E2DE4A482D133BE900347725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2DE4A492D133BE900347725 /* UsersNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworkApp.swift; sourceTree = "<group>"; };
 		E2DE4A512D1351F100347725 /* ResultsUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsUsers.swift; sourceTree = "<group>"; };
+		E2DE4A552D1358FD00347725 /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		E2DE4A592D13595600347725 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E2DE4A5B2D135A1900347725 /* Gateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gateway.swift; sourceTree = "<group>"; };
+		E2DE4A5D2D135A7700347725 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		E2DE4A5F2D135B2B00347725 /* ParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
+		E2DE4A612D135C1F00347725 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E2DE4A632D135D5700347725 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E2DE4A652D13605100347725 /* PictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewModel.swift; sourceTree = "<group>"; };
+		E2DE4A672D13605C00347725 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		E2DE4A6B2D13607F00347725 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		E2DE4A6D2D13609000347725 /* PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
+		E2DE4A6F2D1360B200347725 /* CurrentPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,7 @@
 				E2DE4A4F2D133BF700347725 /* View */,
 				E2DE4A532D13535300347725 /* ViewModel */,
 				E2DE4A542D13536D00347725 /* Services */,
+				E2DE4A582D13593200347725 /* Error */,
 				E2DE4A472D133BE900347725 /* Assets.xcassets */,
 				E2DE4A462D133BE900347725 /* Preview Content */,
 			);
@@ -76,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				E2DE4A482D133BE900347725 /* ContentView.swift */,
+				E2DE4A6B2D13607F00347725 /* UsersView.swift */,
+				E2DE4A6D2D13609000347725 /* PictureView.swift */,
+				E2DE4A6F2D1360B200347725 /* CurrentPictureView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +119,8 @@
 		E2DE4A532D13535300347725 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E2DE4A652D13605100347725 /* PictureViewModel.swift */,
+				E2DE4A672D13605C00347725 /* UsersViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -98,8 +128,30 @@
 		E2DE4A542D13536D00347725 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E2DE4A552D1358FD00347725 /* URLManager.swift */,
+				E2DE4A5F2D135B2B00347725 /* ParsingService.swift */,
+				E2DE4A612D135C1F00347725 /* NetworkService.swift */,
+				E2DE4A572D13592700347725 /* Components */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E2DE4A572D13592700347725 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE4A592D13595600347725 /* Endpoint.swift */,
+				E2DE4A5B2D135A1900347725 /* Gateway.swift */,
+				E2DE4A5D2D135A7700347725 /* Server.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2DE4A582D13593200347725 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE4A632D135D5700347725 /* NetworkError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +227,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DE4A602D135B2B00347725 /* ParsingService.swift in Sources */,
+				E2DE4A682D13605C00347725 /* UsersViewModel.swift in Sources */,
+				E2DE4A5E2D135A7700347725 /* Server.swift in Sources */,
 				E2DE4A522D1351F100347725 /* ResultsUsers.swift in Sources */,
+				E2DE4A6C2D13607F00347725 /* UsersView.swift in Sources */,
+				E2DE4A702D1360B200347725 /* CurrentPictureView.swift in Sources */,
+				E2DE4A562D1358FD00347725 /* URLManager.swift in Sources */,
+				E2DE4A622D135C1F00347725 /* NetworkService.swift in Sources */,
 				E2DE4A4D2D133BE900347725 /* ContentView.swift in Sources */,
 				E2DE4A4E2D133BE900347725 /* UsersNetworkApp.swift in Sources */,
+				E2DE4A662D13605100347725 /* PictureViewModel.swift in Sources */,
+				E2DE4A5C2D135A1900347725 /* Gateway.swift in Sources */,
+				E2DE4A6E2D13609000347725 /* PictureView.swift in Sources */,
+				E2DE4A5A2D13595600347725 /* Endpoint.swift in Sources */,
+				E2DE4A642D135D5700347725 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
