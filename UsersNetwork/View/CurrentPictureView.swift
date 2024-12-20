@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct CurrentPictureView: View {
-    let picture: ResultsUsers.User.Picture
+    let picture: ResultsUsers
     var body: some View {
-        AsyncImage(url: URL(string: picture.thumbnail))
+        AsyncImage(url: URL(string: picture.results[0].picture.thumbnail))
     }
 }
 

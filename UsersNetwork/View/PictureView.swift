@@ -14,11 +14,11 @@ struct PictureView: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: layout) {
-                ForEach(viewModel.pictures, id: \.email) { pictures in
+                ForEach(viewModel.pictures, id: \.results[0].email) { pictures in
                     NavigationLink {
-                        CurrentPictureView(picture: pictures.picture)
+                        CurrentPictureView(picture: pictures)
                     } label: {
-                        AsyncImage(url: URL(string: pictures.picture.thumbnail)) { image in
+                        AsyncImage(url: URL(string: pictures.results[0].picture.thumbnail)) { image in
                             image
                                 .resizable()
                         } placeholder: {

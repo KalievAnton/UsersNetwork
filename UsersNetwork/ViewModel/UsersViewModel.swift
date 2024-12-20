@@ -9,7 +9,7 @@ import Foundation
 
 @Observable
 class UsersViewModel {
-    var users: [ResultsUsers.User] = []
+    var users: [ResultsUsers] = []
     
     init() {
         fetchData()

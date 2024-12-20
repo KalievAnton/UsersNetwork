@@ -9,8 +9,8 @@ import Foundation
 
 @Observable
 class PictureViewModel {
-    var pictures: [ResultsUsers.User] = []
-    
+    var pictures: [ResultsUsers] = []
+
     init() {
         fetchData()
     }

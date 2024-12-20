@@ -139,9 +139,9 @@
 		E2DE4A572D13592700347725 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				E2DE4A592D13595600347725 /* Endpoint.swift */,
 				E2DE4A5B2D135A1900347725 /* Gateway.swift */,
 				E2DE4A5D2D135A7700347725 /* Server.swift */,
+				E2DE4A592D13595600347725 /* Endpoint.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
