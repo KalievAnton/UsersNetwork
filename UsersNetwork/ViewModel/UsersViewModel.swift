@@ -9,7 +9,7 @@ import Foundation
 
 @Observable
 class UsersViewModel {
-    var users: [ResultsUsers] = []
+    var users: [ResultsUsers.User] = []
     
     init() {
         fetchData()
@@ -19,7 +19,7 @@ class UsersViewModel {
         Task {
             let users = try await NetworkService.shared.fetchUsers()
             await MainActor.run {
-                self.users = users
+                self.users = users.results
             }
         }
     }

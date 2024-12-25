@@ -29,7 +29,7 @@ struct ResultsUsers: Decodable {
             let city: String
             let state: String
             let country: String
-            let postcode: String
+//            let postcode: Int
             let coordinates: Coordinates
             let timezone: TimeZone
         }
@@ -40,8 +40,8 @@ struct ResultsUsers: Decodable {
         }
         
         struct Coordinates: Decodable {
-            let latitude: Double
-            let longitude: Double
+            let latitude: String
+            let longitude: String
         }
         
         struct TimeZone: Decodable {
