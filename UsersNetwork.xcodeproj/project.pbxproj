@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E24FA4E82D1AEF4C00F2C93C /* DetailsUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24FA4E72D1AEF4C00F2C93C /* DetailsUserView.swift */; };
+		E29ADA7C2D1BF9A800BD7FE9 /* DetailsUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29ADA7B2D1BF9A800BD7FE9 /* DetailsUserViewModel.swift */; };
 		E2DE4A4B2D133BE900347725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DE4A452D133BE900347725 /* Preview Assets.xcassets */; };
 		E2DE4A4C2D133BE900347725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DE4A472D133BE900347725 /* Assets.xcassets */; };
 		E2DE4A4D2D133BE900347725 /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE4A482D133BE900347725 /* RouterView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		E24FA4E72D1AEF4C00F2C93C /* DetailsUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsUserView.swift; sourceTree = "<group>"; };
 		E2954E722D1337BF00DB0A00 /* UsersNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsersNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29ADA7B2D1BF9A800BD7FE9 /* DetailsUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsUserViewModel.swift; sourceTree = "<group>"; };
 		E2DE4A452D133BE900347725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2DE4A472D133BE900347725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2DE4A482D133BE900347725 /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				E2DE4A672D13605C00347725 /* UsersViewModel.swift */,
+				E29ADA7B2D1BF9A800BD7FE9 /* DetailsUserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29ADA7C2D1BF9A800BD7FE9 /* DetailsUserViewModel.swift in Sources */,
 				E2DE4A602D135B2B00347725 /* ParsingService.swift in Sources */,
 				E2DE4A682D13605C00347725 /* UsersViewModel.swift in Sources */,
 				E24FA4E82D1AEF4C00F2C93C /* DetailsUserView.swift in Sources */,

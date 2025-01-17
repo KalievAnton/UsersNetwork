@@ -16,13 +16,13 @@ struct UsersView: View {
             LazyVGrid(columns: layout) {
                 ForEach(viewModel.users, id: \.email) { user in
                     NavigationLink {
-                        CurrentUsersView(user: user)
+                        DetailsUserView(viewModel: .init(user: user))
                     } label: {
                         AsyncImage(url: URL(string: user.picture.thumbnail)) { image in
                             image
                                 .resizable()
                         } placeholder: {
-                            Image(systemName: "images")
+                            Image(systemName: "thumbnail")
                                 .frame(width: 150, height: 160)
                         }
                         .scaledToFit()
